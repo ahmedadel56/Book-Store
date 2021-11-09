@@ -1,12 +1,23 @@
 import '../components-style/App.css'
 import Nav from './Nav';
+import Books from './Books';
+import Categories from './Categories'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-       <Nav />
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+          <Nav />
+          <Switch>
+            <Route exact path="/">
+                <Books />
+            </Route>
+            <Route path="/categories">
+                <Categories />
+            </Route>
+          </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 

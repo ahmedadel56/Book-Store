@@ -1,21 +1,23 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../components-style/Nav.css';
 export default function Nav() {
     return (
         <div>
             <div className="panel-bg">
-                <span className="Bookstore-CMS Text-Style-5">
+                <span className="Bookstore-CMS ">
                     Bookstore CMS
                 </span>
-                <span className="BOOKS Text-Style-7">
-                    BOOKS
-                </span>
-                <span className="CATEGORIES Text-Style-7">
-                    CATEGORIES
-                </span>
-                <div className="Oval">
-                <div className="Mask"></div>
-                </div>
+                <NavLink to="/" className="NavLink" activeClassName="is-active" exact>
+                    <span className="BOOKS ">
+                        BOOKS
+                    </span>
+                </NavLink>
+                <NavLink to="/categories" className="NavLink" activeClassName="is-active">
+                    <span className="CATEGORIES ">
+                        CATEGORIES
+                    </span>
+                </NavLink>
             </div>
         </div>
     )
