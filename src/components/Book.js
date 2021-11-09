@@ -1,7 +1,14 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 
-const Book = (props) => {
-  const { title, author } = props;
+const Book = ({ book }) => {
+  const { id, title, author } = book;
+  const dispatch = useDispatch();
+
+  const remove = () => {
+    dispatch(removeBook(id));
+  };
   return (
     <li>
       <h3>
@@ -9,9 +16,16 @@ const Book = (props) => {
         {' '}
         {author}
       </h3>
-      <button type="button"> remove</button>
+      <button type="button" onClick={remove}> remove</button>
     </li>
   );
 };
 
+Book.defaultProps = {
+  book: {
+    id: '',
+    title: '',
+    author: '',
+  },
+};
 export default Book;
