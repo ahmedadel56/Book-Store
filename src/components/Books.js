@@ -1,7 +1,11 @@
 import React from 'react';
+import BookList from './BookList';
+import InserBook from './InserBook';
 
-export default function Books() {
-  return (
-    <div />
-  );
-}
+const Books = () => (
+  <div>
+    <BookList />
+    <InserBook />
+  </div>
+);
+export default Books;
