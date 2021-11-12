@@ -72,8 +72,10 @@ const Book = ({ book }) => {
       </div>
       <div className="chapter">
         <span className="current-chapter">CURRENT CAHPTER</span>
-        Chapter
-        {chapter}
+        <span className="chapter-numb">
+          Chapter
+          {chapter}
+        </span>
         <button type="button" className="update-progress">UPDATE PROGRESS</button>
       </div>
     </li>

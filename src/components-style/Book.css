@@ -133,3 +133,49 @@
     letter-spacing: normal;
     color: #121212;
 }
+
+.chapter .current-chapter {
+    width: 7.875rem;
+    height: 1.125rem;
+    margin: 0.063rem 3.625rem .4rem 0;
+    opacity: 0.5;
+    font-size: 0.813rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
+}
+
+.chapter .chapter-numb {
+    width: 5.625rem;
+    height: 1.313rem;
+    margin: 0.438rem 5.875rem 0.25rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: #121212;
+}
+
+
+.chapter button {
+    width: 11.5rem;
+    height: 2.063rem;
+    margin: 0.75rem 0 0.563rem 0;
+    border-radius: 3px;
+    font-size: 0.813rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #fff;
+    background-color: #0290ff;
+    outline: none;
+    border: none;
+}
