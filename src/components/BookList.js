@@ -19,6 +19,7 @@ const BookList = () => {
       {books.map((book) => (
         <Book key={book.id} book={book} />
       ))}
+      <div className="line-break" />
     </ul>
   );
 };

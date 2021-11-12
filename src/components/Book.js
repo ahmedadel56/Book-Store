@@ -69,11 +69,13 @@ const Book = ({ book }) => {
           %
           <span className="completed">completed</span>
         </div>
+        <div className="small-line" />
       </div>
       <div className="chapter">
         <span className="current-chapter">CURRENT CAHPTER</span>
         <span className="chapter-numb">
           Chapter
+          { '  '}
           {chapter}
         </span>
         <button type="button" className="update-progress">UPDATE PROGRESS</button>
