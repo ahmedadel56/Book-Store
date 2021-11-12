@@ -1,0 +1,14 @@
+.book-list {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.book-list li {
+  list-style-type: none;
+}
+
+.line-break {
+  min-width: 100%;
+  height: 0.125rem;
+  background-color: #e8e8e8;
+}

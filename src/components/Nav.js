@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FaAddressBook } from 'react-icons/fa';
 import '../components-style/Nav.css';
 
 export default function Nav() {
   return (
-    <div>
-      <div className="panel-bg">
+    <header className="panel-bg">
+      <nav>
         <span className="Bookstore-CMS ">
           Bookstore CMS
         </span>
@@ -19,7 +20,11 @@ export default function Nav() {
             CATEGORIES
           </span>
         </NavLink>
-      </div>
-    </div>
+        <span />
+      </nav>
+      <span className="icon">
+        <FaAddressBook className="fa" />
+      </span>
+    </header>
   );
 }

@@ -1,0 +1,193 @@
+.book {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffff;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border: solid 1px #e8e8e8;
+  padding-top: 2rem;
+  padding-left: 1.688rem;
+  overflow: hidden;
+}
+
+.chapter button {
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 0;
+  border-radius: 3px;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  background-color: #0290ff;
+  outline: none;
+  border: none;
+}
+
+.book-detail,
+.percentage,
+.chapter {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.book-detail .category {
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.book-detail h3 {
+  width: 12.313rem;
+  height: 1.813rem;
+  margin: 0.5rem 20.188rem 0 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.book-detail .author {
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.book-detail .interaction,
+.book-detail.interaction li {
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+  width: 4.563rem;
+  height: 1.7rem;
+  margin: 1rem 0.938rem 0.125rem 0;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.interaction hr {
+  width: 0.125rem;
+  height: 1.4rem;
+  margin: 0.75rem 1.063rem 0 0.938rem;
+  border: solid 1px #e8e8e8;
+}
+
+.book-detail .interaction li button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: #4386bf;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.percentage .circle {
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #379cf6;
+  border-left-color: #e8e8e8;
+  transform: rotate(40deg);
+  margin-right: 2rem;
+}
+
+.percentage .calc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 4.25rem;
+  height: 100%;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.calc .completed {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0;
+  opacity: 0.5;
+  font-size: 1.3rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.small-line {
+  width: 1px;
+  height: 4.375rem;
+  margin: 1.125rem 3.688rem 0 4.938rem;
+  background-color: #e8e8e8;
+}
+
+.chapter .current-chapter {
+  width: 7.875rem;
+  height: 1.125rem;
+  margin: 0.063rem 3.625rem 0.4rem 0;
+  opacity: 0.5;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.chapter .chapter-numb {
+  width: 5.625rem;
+  height: 1.313rem;
+  margin: 0.438rem 5.875rem 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
