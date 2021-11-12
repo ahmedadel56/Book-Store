@@ -32,8 +32,8 @@ const InserBook = () => {
 
   return (
     <form onSubmit={submitBook}>
-      <input type="text" id="title" value={title} onChange={addTitle} placeholder="name of the book" />
-      <input type="text" id="category" value={category} onChange={addCategory} placeholder="category of the book" />
+      <input type="text" id="title" value={title} onChange={addTitle} placeholder="name of the book" required />
+      <input type="text" id="category" value={category} onChange={addCategory} placeholder="category of the book" required />
       <button type="submit">Add book</button>
     </form>
   );
