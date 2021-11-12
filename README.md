@@ -2,8 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flfmnovaes%2Ftodo-list&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-# React-Book-Store
-
+![image](https://user-images.githubusercontent.com/43178495/141474824-f858003c-1037-46af-bf70-7f4c08050b78.png)
 > This project consist in making Book-Store using React.
 
 # Live Demo
