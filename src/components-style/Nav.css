@@ -5,9 +5,11 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 2rem;
+  padding-bottom: 1rem;
   padding-left: 10%;
   padding-right: 10%;
   background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .panel-bg nav {
@@ -32,7 +34,7 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color:#0290ff;
+  color: #0290ff;
 }
 
 .BOOKS {
@@ -59,7 +61,7 @@
   color: #121212;
 }
 
-.is-active * {
+.panel-bg nav .is-active * {
   opacity: 1;
 }
 

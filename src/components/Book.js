@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
+import '../components-style/Book.css';
 
 const Book = ({ book }) => {
   const { id, title, category } = book;
@@ -38,17 +39,41 @@ const Book = ({ book }) => {
   }, []);
 
   return (
-    <li>
-      <h3>
-        {title}
-        {' '}
-        {category}
+    <li className="book">
+      <div className="book-detail">
+        <span className="category">
+          {category}
+        </span>
+        <h3>
+          {title}
+        </h3>
+        <span className="author">
+          {author}
+        </span>
+        <ul className="interaction">
+          <li>
+            Comments
+          </li>
+          <hr />
+          <li>
+            <button type="button" onClick={remove}> remove</button>
+          </li>
+          <hr />
+          <li>Edit</li>
+        </ul>
+      </div>
+      <div className="percentage">
+        <span className="square" />
         {percentage}
         %
+        <span className="completed">completed</span>
+      </div>
+      <div className="chapter">
+        <span className="current-chapter">CURRENT CAHPTER</span>
+        Chapter
         {chapter}
-        {author}
-      </h3>
-      <button type="button" onClick={remove}> remove</button>
+        <button type="button" className="update-progress">UPDATE PROGRESS</button>
+      </div>
     </li>
   );
 };
