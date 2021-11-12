@@ -63,10 +63,12 @@ const Book = ({ book }) => {
         </ul>
       </div>
       <div className="percentage">
-        <span className="square" />
-        {percentage}
-        %
-        <span className="completed">completed</span>
+        <span className="circle" />
+        <div className="calc">
+          {percentage}
+          %
+          <span className="completed">completed</span>
+        </div>
       </div>
       <div className="chapter">
         <span className="current-chapter">CURRENT CAHPTER</span>

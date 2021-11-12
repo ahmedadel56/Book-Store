@@ -60,7 +60,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 4.563rem;
-  height: 1.188rem;
+  height: 1.7rem;
   margin: 1rem 0.938rem 0.125rem 0;
   font-size: 0.875rem;
   font-weight: 300;
@@ -73,7 +73,7 @@
 
 .interaction hr {
   width: 0.125rem;
-  height: 1.5rem;
+  height: 1.4rem;
   margin: 0.75rem 1.063rem 0 0.938rem;
   border: solid 1px #e8e8e8;
 }
@@ -83,4 +83,53 @@
   border: none;
   outline: none;
   color: #4386bf;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.percentage .circle {
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #379cf6;
+  border-left-color: #e8e8e8;
+  transform: rotate(40deg);
+  margin-right: 2rem;
+}
+
+.percentage .calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 4.25rem;
+    height: 100%;
+    margin: 2.4rem 5.75rem 0 0.688rem;
+    font-size: 2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
+}
+
+.calc .completed {
+    width: 5rem;
+    height: 1.125rem;
+    margin: 0.438rem 4.938rem 0.75rem 0;
+    opacity: 0.5;
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #121212;
 }
