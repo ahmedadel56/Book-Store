@@ -18,9 +18,7 @@ export default function Nav() {
           CATEGORIES
         </span>
       </NavLink>
-      <span>
-        
-      </span>
+      <span />
     </div>
   );
 }
